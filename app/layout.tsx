@@ -6,6 +6,7 @@ import Chatbot from '@/components/chatbot';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://karmaayurvedahospital.co'),
   title: 'Karma Ayurveda | Health Assistant',
   description: 'Chat with the Karma Ayurveda health assistant and connect with our care team.',
   openGraph: {
