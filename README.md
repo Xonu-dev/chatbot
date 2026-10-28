@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Chatbot setup
+
+The chat widget calls `https://karmaayurvedahospital.co/api/chatbot/api_end_point` by default. Configure `NEXT_PUBLIC_CHATBOT_API_URL` if the endpoint changes. See [backend/README.md](backend/README.md) for the Django app, required packages, CRM `AddEnquiry` integration, environment variables, migrations, and deployment steps.
+
+Copy `.env.example` to `.env.local` for local development and set the Django chat API URL. Never add OpenAI or CRM credentials to this frontend project.
+
 ## Getting Started
 
 First, run the development server:
